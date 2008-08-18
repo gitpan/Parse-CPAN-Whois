@@ -8,7 +8,7 @@ all_from	'lib/Parse/CPAN/Whois.pm';
 
 
 requires	'XML::SAX::ParserFactory'	=> '0';
-requires	'XML::SAX::Base'		=> '0';
+requires	'XML::SAX::Base'		=> '1.04';
 
 test_requires	'Test::More'	=> '0';
 

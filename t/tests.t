@@ -8,6 +8,7 @@ use_ok ('Parse::CPAN::Whois');
 
 #$XML::SAX::ParserPackage = "XML::SAX::Expat";
 #$XML::SAX::ParserPackage = "XML::LibXML::SAX";
+#$XML::SAX::ParserPackage = "XML::SAX::PurePerl";
 my $file = 't/00whois.xml';
 #open my $fh, "$file";
 #{ local $/; $file = <$fh>; }
